@@ -5,3 +5,7 @@
 body{
     font-family: "Jost", serif;
 }
+
+nav{
+    z-index:10001 !important;
+}
