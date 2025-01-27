@@ -38,7 +38,9 @@ export default function Pricing() {
                         <p className="text-tartiary text-center my-5">{pkg.description}</p>
                         <p className="mt-5 text-center text-secondary text-4xl font-bold">
                             {isYearly ? `$${pkg.yearlyPrice}` : `$${pkg.monthlyPrice}`}/<span className="text-base text-tartiary font-medium">{isYearly ? 'years': 'month'}</span>
+                            
                         </p>
+                        prova
                     </div>
 
                     )
